@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "python-notifications"
-version = "1.0.1"
+name = "pyNotifications"
+version = "1.0.0"
 authors = [
     {name = "Iratxe Moya", email = "iratxe.moya@gmail.com"},
 ]
@@ -22,3 +22,6 @@ classifiers = [
 dependencies = [
     "requests",
 ]
+[project.urls]
+"Homepage" = "https://github.com/iratxeMoya/PythonNotifications"
+"Bug Tracker" = "https://github.com/iratxeMoya/PythonNotifications/issues"

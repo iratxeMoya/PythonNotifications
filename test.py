@@ -1,10 +1,8 @@
-import importlib
-python_notifications = importlib.import_module("python-notifications")
-#from python_notifications-1.0.1.dist-info import PythonNotifications
+from pyNotifications import PythonNotifications
 import time
 
 
-notifyer = python_notifications.PythonNotifications(token='5892926535:AAH8NH0e-AT1VYQLA9psWChZQb5Y_mET7GM', id = '5883320667', appName='test')
+notifyer = PythonNotifications(token='TOKEN', id = 'ID', appName='test')
 notifyer.addMessage('Info test', 'info')
 notifyer.addMessage('Warning test', 'warning')
 time.sleep(3)

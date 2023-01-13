@@ -1,8 +1,10 @@
 Metadata-Version: 2.1
-Name: python-notifications
-Version: 1.0.1
+Name: pyNotifications
+Version: 1.0.0
 Summary: Python package for sending telegram messages.
 Author-email: Iratxe Moya <iratxe.moya@gmail.com>
+Project-URL: Homepage, https://github.com/iratxeMoya/PythonNotifications
+Project-URL: Bug Tracker, https://github.com/iratxeMoya/PythonNotifications/issues
 Classifier: Development Status :: 3 - Alpha
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Natural Language :: English
@@ -20,6 +22,8 @@ Send telegram messages through python. Telegram bot is needed.
 ### Usage
 
 ```
+from pyNotifications import PythonNotifications
+
 notifyer = PythonNotifications(token=TOKEN, id=CHAT_ID, appName='test')
 
 notifyer.addMessage('Info test', 'info')

@@ -5,6 +5,8 @@ Send telegram messages through python. Telegram bot is needed.
 ### Usage
 
 ```
+from pyNotifications import PythonNotifications
+
 notifyer = PythonNotifications(token=TOKEN, id=CHAT_ID, appName='test')
 
 notifyer.addMessage('Info test', 'info')
